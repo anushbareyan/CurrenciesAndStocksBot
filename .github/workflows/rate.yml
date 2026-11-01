@@ -2,7 +2,7 @@ name: Daily rate
 
 on:
   schedule:
-    - cron: "0 6 * * *"   # 06:00 UTC every day
+    - cron: "30 9 * * *"
   workflow_dispatch:
 
 jobs:
